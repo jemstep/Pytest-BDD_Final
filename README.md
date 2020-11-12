@@ -11,9 +11,11 @@ Pytest allows to group tests using markers. pytest.mark decorator is used to mar
 References:
 https://pypi.org/project/pytest-bdd/
 
-Installations:
+Installations: Requires Python 3.9 version
 pip install pytest_base_url
+
 pip install pytest-bdd
+
 pip install pytest
 
 Command to run all the tests:
