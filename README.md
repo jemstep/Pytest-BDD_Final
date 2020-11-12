@@ -10,3 +10,14 @@ Pytest allows to group tests using markers. pytest.mark decorator is used to mar
 
 References:
 https://pypi.org/project/pytest-bdd/
+
+Installations:
+pip install pytest_base_url
+pip install pytest-bdd
+pip install pytest
+
+Command to run all the tests:
+pytest --base-url "https://citiwealthbuilderqa.jemstep.com"  --browsertype chrome
+
+If you want to run specific tests with tags "login", then below is command
+pytest --base-url "https://citiwealthbuilderqa.jemstep.com" -k "login" --browsertype chrome
